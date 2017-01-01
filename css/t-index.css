@@ -1,0 +1,324 @@
+@font-face {
+    font-family: oldengl;
+    src: url("../font/OLDENGL.TTF");
+}
+
+@font-face {
+    font-family: lcalling;
+    src: url("../font/LCALLIG.TTF");
+}
+
+body {
+	--background-image: url("http://czdigitalmedia.com/wp-content/uploads/2015/03/grey-brick-background.jpg");
+	background-image: url("http://www.biopietra.com/galleria_biopietra_tradition_img/mattone_antico/gamma/zoom/rosso.jpg");
+	--background-image: url("http://2.bp.blogspot.com/-CI4fGDvuP1Y/UDjEt3sTjkI/AAAAAAAABH8/n5Zjp9rF2e4/s640/Texture+seamless+mattoni+Roma+Antica+simo-3d.jpg");
+	--background-repeat: no-repeat;
+	--background-size: cover;
+	background-attachment: fixed;
+}
+
+.h1-head {
+    color: #b1370e;
+    background-image: url(../image/ribbonbanner2.png);
+    background-position: center 2px;
+    background-repeat: no-repeat;
+    font-family: oldengl;
+    font-weight: 300;
+    background-size: 484px 105px;
+    text-shadow: 5px 5px 5px #41383e;
+    padding-bottom: 2.9em;
+}
+/*.image-responsive.head {
+  	font-weight: bold;
+  	font-size: 40px;
+  	text-align: center;
+  	font-family: Old English Text MT;
+  	background-image: url("image/StLogoHead.PNG");
+  	background-position: center 5px;
+	background-repeat: no-repeat;
+	margin-top: 13px;
+	padding-bottom: 113px;
+	background-size: 521px 108px;
+	text-shadow: 5px 5px 10px #808080;
+}*/
+
+#head-main-logo {
+	max-height: 160px;
+    width: 50%;
+    margin: 10px 0 7px 0;
+}
+
+#my-nav-bar {
+	z-index: 5;
+	padding: 0 4em 0 4em;
+}
+
+#my-nav-bar[class="navbar-header"] {
+	padding: 0;
+}
+
+a.dropdown-toggle {
+	cursor: pointer;
+}
+
+.navbar-nav li {
+	text-align: justify;
+}
+
+.dropdown-menu li {
+	text-align: left;
+}
+
+.navbar-toggle.nav-toggle {
+	color: #9d9d9d;
+    padding: 4px 9px 4px 9px;
+    margin-top: 10px;
+}
+
+.dropdown-menu.inverted {
+	background-color: #222;
+}
+
+/*propietà allineamento nav bar affix*/
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.dropdown-menu.inverted a {
+	color: #9d9d9d;
+}
+
+.dropdown-menu.inverted :hover {
+	background-color: transparent;
+	color: white;
+}
+
+/*.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+.main-body {
+	margin: 0;
+	--background-image: url("../image/parte-della-nostra-sala.jpg");
+	--background-repeat: no-repeat;
+	--background-position: center 190px;
+	width: 100%;
+	--background-size: cover;
+	overflow: auto;
+}*/
+
+.main-body-center {
+	background-color: white;
+	display: block;
+	margin: auto;
+	width: auto;
+}
+
+.main-body-left, .main-body-right {
+	padding: 25px;
+}
+
+footer .container-fluid {
+	background: rgba(255,255,255,0.9);
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: inherit;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer p {
+	display: inline;
+}
+
+#email-footer {
+	margin: 0;
+	float: right;
+	padding-left: 0%;
+	color: blue;
+}
+
+.main-body .lighton{
+	display: block;
+	margin: auto;
+	width: auto;
+}
+
+.home-button {
+    color: #9d9d9d;
+    padding: 4px 9px 4px 9px;
+    float: left;
+	margin-top: 10px;
+    --margin-left: 15px;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #333;
+	margin-right: 6px;
+	margin-left: 10px;
+}
+
+.home-button:hover, .home-button:active, .home-button:focus {
+	background-color: #333;
+	color: #9d9d9d;
+	text-decoration: none;
+}
+
+.box {
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	background: #fff;
+	background: rgba(255,255,255,0.9);
+}
+
+.carousel-indicators.hidden-xs{
+	z-index: 4;
+}
+
+.carousel-img {
+    max-height: 250px;
+    width: auto;
+    margin: auto;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+    font-family: lcalling;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.intro-text {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+}
+
+.tagline-divider, .tagline-divider-large {
+    margin: 15px auto 15px auto;
+    margin-top: 17px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.tagline-divider-large {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.inner-box-image-left {
+    float: left;
+    --margin: auto;
+    border: #999999 solid 1px;
+   	margin-right: 15px;
+    --margin-bottom: 20px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; //ratio
+    height: 0;
+    overflow: hidden;
+    box-shadow: 8px 8px 10px grey;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.image-responsive.social {
+	margin: auto 15px auto 15px;
+}
+
+.nav-pills.nav-stacked li a {
+	background-color: #51853f;
+	border-radius: 6px 18px 18px 6px;
+	padding: 3px;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.nav-pills.nav-stacked li:first-of-type a {
+	border-radius: 18px 18px 18px 6px;
+}
+
+.nav-pills.nav-stacked li:last-of-type a {
+	border-radius: 6px 18px 18px 18px;
+}
+
+.nav-pills.nav-stacked a:hover, .nav-pills.nav-stacked > li > a:focus {
+	background-color: #3e6530;
+	text-decoration: none;
+}
+
+.table>thead>tr>th {
+	text-align: center;
+}
+
+.nav-tabs>li>a {
+	color: #FFFFFF;
+}
+
+.link-popover:hover, .link:hover, [data-toggle="modal"] {
+	cursor: pointer;
+}
+
+.glyphicon-remove {
+	color: red;
+}
+
+.glyphicon-ok, .glyphicon-plus {
+	color: green;
+}
+
+.modal-header {
+	background-color: #5cb85c;
+	color:white !important;
+	text-align: center;
+	font-size: 30px;
+	padding:35px 50px;
+}
+
+.modal-body {
+	padding:40px 50px;
+}
+
+.modal-footer {
+	background-color: #f9f9f9;
+	padding:40px 50px;
+}
+
+#registration-alert {
+	margin: 1.1em;
+}
+
+.modal-fase {
+	padding: 1em;
+	height: 1.8em;
+}
+
+#user_detail_form {
+	align-content:center;
+}
