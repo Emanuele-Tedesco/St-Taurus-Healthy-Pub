@@ -41,7 +41,7 @@
                 <!--<h1 class="h1-head">St Taurus Healthy Pub</h1>-->
             </div>           
 			<div class="row">
-				<nav id="my-nav-bar" class="navbar navbar-inverse">
+				<nav id="my-nav-bar" class="navbar navbar-inverse" data-spy="affix" data-offset-top="179">
 					<div class="navbar-header">
 						<button type="button" title="Mostra/nascondi il menu" class="navbar-toggle nav-toggle">
 							<span class="glyphicon glyphicon-th-list"></span>

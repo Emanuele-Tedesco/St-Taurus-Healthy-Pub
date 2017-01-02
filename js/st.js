@@ -70,7 +70,7 @@ $(function(){
 	});
 	
 	//affix della navbar
-	$(".navbar").affix({offset: {top: $("header").outerHeight(true)}});
+	/*$(".navbar").affix({offset: {top: $("header").outerHeight(true)}});
 	
 	//disabilita i link per i link disabilitati
 	$(".disabled a").removeAttr("href");

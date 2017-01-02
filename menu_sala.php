@@ -10,7 +10,6 @@
 			</div>
 			<br />
 			<div class="row text-center" id="picker-receiver"></div>
-			<div class="col-md-2"></div>
 		</div>
 	</div>
 </html>
